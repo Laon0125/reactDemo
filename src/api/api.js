@@ -1,5 +1,5 @@
 import axios from "axios";
-axios.defaults.baseURL = "http:/34.64.69.238/:8080"; // 스프링부트 주소
+axios.defaults.baseURL = "http://34.64.69.238"; // 스프링부트 주소
 export const api = async (method, url, data) => {
   const token = localStorage.getItem("token");
   const headers = token
